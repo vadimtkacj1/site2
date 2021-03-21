@@ -15,13 +15,14 @@ header {
   font-style: normal;
   font-weight: bold;
   color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .heading {
   display: flex;
-  align-items: center;
-  flex-direction: column;
-  flex-wrap: wrap;
+  width: 57%;
 }
 
 .menu {
@@ -31,7 +32,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 57%;
+  width: 100%;
   color: #fff;
   margin: 0;
   margin-top: 51px;
@@ -44,9 +45,11 @@ header {
 }
 
 .number {
+  width: 200px;
+  height: 25px;
   display: flex;
   justify-content: center;
-  margin: 0 0 0 9%;
+  margin: 51px 0 0 14%;
   border-bottom: 3px solid#d1a954;
 }
 
@@ -70,12 +73,12 @@ header {
 
 .preview__paragrah {
   text-transform: none;
-
   font-weight: normal;
   width: 510px;
   font-size: 13px;
   margin-bottom: 49px;
-  font-weight: 400;
+  font-style: normal;
+  font-weight: normal;
   line-height: 1.7em;
 }
 
