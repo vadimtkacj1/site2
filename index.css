@@ -15,14 +15,18 @@ header {
   font-style: normal;
   font-weight: bold;
   color: #fff;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
 }
 
 .heading {
   display: flex;
-  width: 57%;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
 }
 
 .menu {
@@ -32,10 +36,10 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  width: 100%;
   color: #fff;
   margin: 0;
   margin-top: 51px;
+  width: 43%;
 }
 
 .menu__item {
@@ -45,11 +49,9 @@ header {
 }
 
 .number {
-  width: 200px;
   height: 25px;
   display: flex;
-  justify-content: center;
-  margin: 51px 0 0 14%;
+  margin: 51px 0 0 9%;
   border-bottom: 3px solid#d1a954;
 }
 
@@ -60,22 +62,21 @@ header {
 }
 
 .preview {
-  width: 57%;
   text-transform: uppercase;
   margin-top: 308px;
 }
 
 .preview__heading {
   letter-spacing: 5px;
-  font-size: 54px;
+  font-size: 64px;
   font-weight: 900;
 }
 
 .preview__paragrah {
   text-transform: none;
   font-weight: normal;
-  width: 510px;
-  font-size: 13px;
+  width: 539px;
+  font-size: 14px;
   margin-bottom: 49px;
   font-style: normal;
   font-weight: normal;
