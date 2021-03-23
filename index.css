@@ -24,7 +24,7 @@ header {
   width: 100%;
 }
 
-.content {
+.content__text {
   display: flex;
   justify-content: center;
 }
