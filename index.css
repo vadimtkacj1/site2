@@ -361,13 +361,13 @@ header {
 .promo__items {
   display: flex;
   flex-wrap: wrap;
-  width: 980px;
+  width: 1040px;
   margin: 0;
   padding: 0;
 }
 
 .promo__item_img {
-  margin-right: 60px;
+  margin-right: 80px;
   margin-bottom: 80px;
 }
 
