@@ -300,3 +300,45 @@ header {
   padding: 0;
   top: 87%;
 }
+
+.box {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 150px;
+}
+
+.box__item {
+  display: flex;
+  flex-direction: row;
+  margin-top: -380px;
+}
+
+.box__item_datas {
+  margin-top: -50px;
+}
+
+.box__data {
+  font-size: 72px;
+  line-height: 98px;
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.box__item_text {
+  margin-left: 103px;
+}
+
+.box__text {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 150%;
+  margin: 0;
+  padding: 0;
+}
+
+.box__stars {
+  margin-bottom: 25px;
+}
