@@ -236,3 +236,39 @@ header {
 .content__item_img {
   margin-bottom: 15px;
 }
+
+.slider__row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slider__block {
+  display: flex;
+  flex-direction: row;
+}
+
+.slider__item {
+  text-transform: uppercase;
+}
+
+.slider__item_img {
+  position: relative;
+  width: 442px;
+  height: 550px;
+}
+
+.slider__item_heading {
+  position: absolute;
+  top: 1800px;
+  padding-left: 40px;
+  font-size: 24px;
+}
+
+.slider__item_paragrah {
+  position: absolute;
+  transform: rotate(270deg);
+  margin: 0;
+  padding: 0;
+  top: 2250px;
+}
