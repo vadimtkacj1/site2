@@ -95,6 +95,7 @@ header {
   background: #d1a954;
   padding: 14px 42px 14px 42px;
 }
+
 .socials {
   position: fixed;
   display: flex;
@@ -102,8 +103,9 @@ header {
   justify-content: flex-end;
   align-items: center;
   background: rgba(51, 51, 51, 0.75);
-  width: 165px;
+  width: 150px;
   height: 100%;
+  z-index: 1;
 }
 
 .socials__paragrah {
@@ -132,6 +134,7 @@ header {
 .socials__img_item {
   margin-top: 30px;
 }
+
 .slider {
   position: relative;
   margin-top: 200px;
@@ -183,6 +186,7 @@ header {
 
 .content__wrapper {
   display: flex;
+  max-width: 70%;
 }
 
 .content__heading {
@@ -198,7 +202,7 @@ header {
 }
 
 .content__item_paragrah {
-  width: 500px;
+  max-width: 500px;
   margin: 0;
 }
 
@@ -214,7 +218,7 @@ header {
   font-style: normal;
   font-weight: normal;
   line-height: 150%;
-  width: 445px;
+  max-width: 445px;
 }
 
 .content__item:nth-child(2) .content__item_paragrah {
@@ -238,26 +242,53 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+}
+
+.slider__row_heading {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 48px;
+  font-weight: 300;
+  margin-bottom: 100px;
+  margin-top: 150px;
 }
 
 .slider__block {
   display: flex;
   flex-direction: row;
+  margin-left: 150px;
 }
 
 .slider__item {
   text-transform: uppercase;
+  margin: 0;
 }
 
 .slider__item_img {
-  position: relative;
-  width: 442px;
-  height: 550px;
+  width: 436px;
+  height: 544px;
+}
+
+.slider__item_hover {
+  background: url(img/hover.png);
+  background-size: 100%;
+  width: 436px;
+  height: 544px;
+  margin: 0 -434px 0 0;
+  z-index: 100;
+  opacity: 0;
+}
+
+.slider__item_hover:hover {
+  transition: all 0.5s;
+  opacity: 1;
+  width: 446px;
 }
 
 .slider__item_heading {
+  top: 40%;
   position: absolute;
-  top: 1800px;
   padding-left: 40px;
   font-size: 24px;
 }
@@ -267,5 +298,5 @@ header {
   transform: rotate(270deg);
   margin: 0;
   padding: 0;
-  top: 2250px;
+  top: 87%;
 }
