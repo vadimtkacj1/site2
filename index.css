@@ -342,3 +342,35 @@ header {
 .box__stars {
   margin-bottom: 25px;
 }
+
+.promo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.promo__heading {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 48px;
+  font-weight: 300;
+  margin-top: 300px;
+  margin-bottom: 140px;
+}
+
+.promo__items {
+  display: flex;
+  flex-wrap: wrap;
+  width: 980px;
+  margin: 0;
+  padding: 0;
+}
+
+.promo__item_img {
+  margin-right: 60px;
+  margin-bottom: 80px;
+}
+
+.promo__item_img:nth-child(4n) {
+  margin-right: 0;
+}
