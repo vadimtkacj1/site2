@@ -98,6 +98,7 @@ header {
   background: rgba(51, 51, 51, 0.75);
   width: 150px;
   height: 100%;
+  z-index: 200;
 }
 
 .socials__paragrah {
@@ -129,8 +130,7 @@ header {
 
 .slider {
   position: relative;
-  margin-top: 200px;
-  margin-left: 80px;
+  margin: 200px 0 0 80px;
 }
 
 .slider__card_one {
@@ -160,6 +160,5 @@ header {
 }
 
 .slider__paragrah_right {
-  margin-left: 145px;
-  margin-right: 25px;
+  margin: 0 25px 0 145px;
 }
