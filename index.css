@@ -1,99 +1,92 @@
 body {
-  margin: 0;
   width: 100%;
   height: 100%;
   background: #333333;
 }
 
 header {
-  background: url(img/Rectangle3.jpg) no-repeat;
+  background: url(img/Rectangle3.jpg) no-repeat center;
   background-size: cover;
   width: 100%;
   height: 1100px;
-  background-position: center;
 }
 
 .container {
-  font-family: "Open Sans", sans-serif;
-  font-style: normal;
-  font-weight: bold;
+  font-family: "Open Sans Condensed", sans-serif;
   color: #fff;
 }
 
 .heading {
+  font-weight: bold;
   display: flex;
-  flex-direction: row;
   justify-content: center;
-  width: 100%;
 }
 
 .description {
   display: flex;
   justify-content: center;
+  max-width: 95%;
 }
 
 .menu {
   font-size: 18px;
   text-transform: uppercase;
   list-style-type: none;
+  margin-top: 50px;
+  width: 55%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  color: #fff;
-  margin: 0;
-  margin-top: 51px;
-  width: 43%;
 }
 
 .menu__item {
   letter-spacing: 2px;
   color: #fff;
   text-decoration: none;
+  margin-right: 65px;
 }
 
 .number {
+  letter-spacing: 0.05em;
   height: 25px;
-  display: flex;
-  margin: 51px 0 0 9%;
-  border-bottom: 3px solid#d1a954;
+  margin: 51px 0 0 0;
+  border-bottom: 3px solid #d1a954;
 }
 
 .number__item {
   text-decoration: none;
-  list-style-type: none;
   color: #fff;
 }
 
 .preview {
   text-transform: uppercase;
   margin-top: 308px;
-  width: 32%;
+  max-width: 35%;
 }
 
 .preview__heading {
-  letter-spacing: 5px;
+  margin-bottom: 40px;
   font-size: 64px;
-  font-weight: 900;
+  font-weight: bold;
+  letter-spacing: 0.1em;
 }
 
 .preview__paragrah {
+  font-family: "Open Sans";
   text-transform: none;
-  font-weight: normal;
-  width: 80%;
+  width: 90%;
   font-size: 14px;
-  margin-bottom: 49px;
-  font-style: normal;
-  font-weight: normal;
-  line-height: 1.7em;
+  margin-bottom: 50px;
+  line-height: 1.5em;
 }
 
 .button {
+  font-weight: bold;
   letter-spacing: 2px;
   font-size: 17px;
   text-decoration: none;
   color: #fff;
   background: #d1a954;
-  padding: 14px 42px 14px 42px;
+  padding: 14px 42px;
 }
 
 .socials {
@@ -105,7 +98,7 @@ header {
   background: rgba(51, 51, 51, 0.75);
   width: 150px;
   height: 100%;
-  z-index: 1;
+  z-index: 200;
 }
 
 .socials__paragrah {
@@ -113,12 +106,9 @@ header {
   position: absolute;
   bottom: 490px;
   transform: rotate(270deg);
-  margin: 0;
-  padding: 0;
   font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  font-style: normal;
   font-weight: bold;
   color: #c4c4c4;
 }
@@ -127,18 +117,20 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 25px;
   margin-bottom: 15px;
 }
 
 .socials__img_item {
-  margin-top: 30px;
+  margin-top: 25px;
+}
+
+.socials__img_line {
+  margin-bottom: 25px;
 }
 
 .slider {
   position: relative;
-  margin-top: 200px;
-  margin-left: 7%;
+  margin: 200px 0 0 80px;
 }
 
 .slider__card_one {
@@ -157,24 +149,18 @@ header {
   margin-top: 550px;
   display: flex;
   align-items: center;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
 }
 
 .slider__paragrah_left {
   color: #c4c4c4;
   margin-left: 25px;
-  text-transform: uppercase;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: bold;
 }
 
 .slider__paragrah_right {
-  margin-left: 145px;
-  margin-right: 25px;
-  text-transform: uppercase;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: bold;
+  margin: 0 25px 0 145px;
 }
 
 .content {
@@ -193,8 +179,8 @@ header {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-size: 48px;
-  font-weight: 300;
   margin-bottom: 100px;
+  font-weight: 300;
 }
 
 .content__item {
@@ -202,8 +188,8 @@ header {
 }
 
 .content__item_paragrah {
+  font-family: "Open Sans";
   max-width: 500px;
-  margin: 0;
 }
 
 .content__item_heading {
@@ -215,8 +201,6 @@ header {
 
 .content__item:nth-child(1) .content__item_paragrah {
   font-size: 14px;
-  font-style: normal;
-  font-weight: normal;
   line-height: 150%;
   max-width: 445px;
 }
@@ -239,6 +223,7 @@ header {
 }
 
 .slider__row {
+  text-transform: uppercase;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -246,12 +231,10 @@ header {
 }
 
 .slider__row_heading {
-  text-transform: uppercase;
   letter-spacing: 0.1em;
   font-size: 48px;
   font-weight: 300;
-  margin-bottom: 100px;
-  margin-top: 150px;
+  margin: 150px 0 100px 0;
 }
 
 .slider__block {
@@ -260,22 +243,17 @@ header {
   margin-left: 150px;
 }
 
-.slider__item {
-  text-transform: uppercase;
-  margin: 0;
-}
-
 .slider__item_img {
-  width: 436px;
-  height: 544px;
+  width: 435px;
+  height: 545px;
 }
 
 .slider__item_hover {
   background: url(img/hover.png);
   background-size: 100%;
-  width: 436px;
-  height: 544px;
-  margin: 0 -434px 0 0;
+  width: 435px;
+  height: 545px;
+  margin: 0 -435px 0 0;
   z-index: 100;
   opacity: 0;
 }
@@ -283,22 +261,24 @@ header {
 .slider__item_hover:hover {
   transition: all 0.5s;
   opacity: 1;
-  width: 446px;
+  width: 445px;
 }
 
 .slider__item_heading {
-  top: 40%;
+  top: 350px;
   position: absolute;
   padding-left: 40px;
   font-size: 24px;
+  letter-spacing: 0.05em;
 }
 
 .slider__item_paragrah {
   position: absolute;
   transform: rotate(270deg);
-  margin: 0;
-  padding: 0;
-  top: 87%;
+  top: 760px;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  font-weight: bold;
 }
 
 .box {
@@ -312,17 +292,16 @@ header {
   display: flex;
   flex-direction: row;
   margin-top: -380px;
+  font-weight: bold;
 }
 
 .box__item_datas {
-  margin-top: -50px;
+  margin-top: -30px;
 }
 
 .box__data {
   font-size: 72px;
   line-height: 98px;
-  margin: 0;
-  padding: 0;
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
@@ -332,11 +311,9 @@ header {
 }
 
 .box__text {
-  font-weight: bold;
+  font-family: "Open Sans";
   font-size: 36px;
   line-height: 150%;
-  margin: 0;
-  padding: 0;
 }
 
 .box__stars {
@@ -354,21 +331,17 @@ header {
   letter-spacing: 0.1em;
   font-size: 48px;
   font-weight: 300;
-  margin-top: 300px;
-  margin-bottom: 140px;
+  margin: 280px 0 120px 0;
 }
 
 .promo__items {
   display: flex;
   flex-wrap: wrap;
   width: 1040px;
-  margin: 0;
-  padding: 0;
 }
 
 .promo__item_img {
-  margin-right: 80px;
-  margin-bottom: 80px;
+  margin: 0 80px 80px 0;
 }
 
 .promo__item_img:nth-child(4n) {
@@ -386,7 +359,7 @@ header {
   letter-spacing: 0.1em;
   font-size: 48px;
   font-weight: 300;
-  margin-bottom: 100px;
+  margin: 40px 0 100px 0;
 }
 
 .contacts__item {
@@ -394,27 +367,26 @@ header {
   justify-content: center;
 }
 
-.contacts__meta {
+.contacts__meta_item {
   display: flex;
   flex-direction: column;
 }
 
-.contacts__meta_item {
+.contacts__meta_text {
   font-size: 16px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  font-style: normal;
   font-weight: bold;
-  line-height: 22px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: #fff;
 }
 
 .contacts__info {
-  margin-top: 30px;
-  margin-left: 40px;
+  font-family: "Open Sans";
+  margin: 0 0 0 100px;
   display: flex;
   flex-direction: column;
-  width: 900px;
-  margin-left: 100px;
 }
 
 .info__block {
@@ -430,10 +402,9 @@ header {
 
 .info__item {
   margin-right: 30px;
-  display: flex;
   font-weight: 600;
   font-size: 12px;
-  padding: 5px 0 0 15px;
+  padding: 0 0 0 15px;
   width: 180px;
   height: 35px;
   background: #444444;
@@ -446,11 +417,10 @@ header {
 }
 
 .message__textarea {
-  font-weight: normal;
   font-size: 12px;
   width: 310px;
   height: 100px;
-  padding: 10px 5px 5px 15px;
+  padding: 10px 0 0 15px;
   font-weight: 600;
   resize: none;
   background: #444444;
@@ -459,23 +429,23 @@ header {
 }
 
 .info__text {
-  margin-right: 230px;
+  margin-right: 215px;
 }
 
 .info__text_paragrah {
   width: 390px;
   font-size: 12px;
   color: #989898;
-  font-style: normal;
-  font-weight: normal;
 }
 
 .submit__input {
-  font-weight: normal;
+  font-family: "Open Sans Condensed";
+  font-weight: bold;
+  letter-spacing: 0.1em;
   font-size: 18px;
   color: #fff;
   background: #d1a954;
   text-transform: uppercase;
-  padding: 10px 35px 10px 35px;
+  padding: 10px 45px;
   border: 2px solid #d1a954;
 }
