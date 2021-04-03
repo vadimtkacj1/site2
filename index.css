@@ -48,7 +48,7 @@ header {
 .number {
   letter-spacing: 0.05em;
   height: 25px;
-  margin: 51px 0 0 0;
+  margin: 50px 0 0 0;
   border-bottom: 3px solid #d1a954;
 }
 
@@ -199,18 +199,18 @@ header {
   margin-bottom: 40px;
 }
 
-.content__item:nth-child(1) .content__item_paragrah {
+.content__item_left .content__item_paragrah {
   font-size: 14px;
   line-height: 150%;
   max-width: 445px;
 }
 
-.content__item:nth-child(2) .content__item_paragrah {
+.content__item_center .content__item_paragrah {
   font-size: 16px;
   margin-bottom: 15px;
 }
 
-.content__item:nth-child(2) {
+.content__item_center {
   width: 255px;
 }
 
@@ -286,12 +286,14 @@ header {
   align-items: center;
   flex-direction: column;
   margin-top: 150px;
+  position: relative;
 }
 
 .box__item {
   display: flex;
   flex-direction: row;
-  margin-top: -380px;
+  position: relative;
+  bottom: 380px;
   font-weight: bold;
 }
 
@@ -307,7 +309,7 @@ header {
 }
 
 .box__item_text {
-  margin-left: 103px;
+  margin-left: 105px;
 }
 
 .box__text {
@@ -331,7 +333,7 @@ header {
   letter-spacing: 0.1em;
   font-size: 48px;
   font-weight: 300;
-  margin: 280px 0 120px 0;
+  margin: 0 0 120px 0;
 }
 
 .promo__items {
