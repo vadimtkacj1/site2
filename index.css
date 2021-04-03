@@ -286,13 +286,14 @@ header {
   align-items: center;
   flex-direction: column;
   margin-top: 150px;
+  position: relative;
 }
 
 .box__item {
   display: flex;
   flex-direction: row;
-  position: relative;
-  bottom: 380px;
+  position: absolute;
+  bottom: 100px;
   font-weight: bold;
 }
 
@@ -308,7 +309,7 @@ header {
 }
 
 .box__item_text {
-  margin-left: 103px;
+  margin-left: 105px;
 }
 
 .box__text {
