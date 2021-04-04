@@ -243,27 +243,6 @@ header {
   margin-left: 150px;
 }
 
-.slider__item_img {
-  width: 435px;
-  height: 545px;
-}
-
-.slider__item_hover {
-  background: url(img/hover.png);
-  background-size: 100%;
-  width: 435px;
-  height: 545px;
-
-  z-index: 100;
-  opacity: 0;
-}
-
-.slider__item_hover:hover {
-  transition: all 0.5s;
-  opacity: 1;
-  width: 445px;
-}
-
 .slider__card {
   width: 435px;
   height: 545px;
@@ -283,9 +262,9 @@ header {
 }
 
 .slider__item_heading {
-  top: 350px;
+  top: 0;
+  padding: 40px 0 0 40px;
   position: absolute;
-  padding-left: 40px;
   font-size: 24px;
   letter-spacing: 0.05em;
 }
@@ -293,7 +272,8 @@ header {
 .slider__item_paragrah {
   position: absolute;
   transform: rotate(270deg);
-  top: 760px;
+  bottom: 0;
+  padding: 0 0 110px 80px;
   font-size: 18px;
   letter-spacing: 0.1em;
   font-weight: bold;
