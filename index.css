@@ -45,7 +45,7 @@ header {
 .description {
   display: flex;
   justify-content: center;
-  max-width: 95%;
+  padding: 0 130px 0 0;
 }
 
 .preview {
