@@ -253,7 +253,7 @@ header {
   background-size: 100%;
   width: 435px;
   height: 545px;
-  margin: 0 -435px 0 0;
+
   z-index: 100;
   opacity: 0;
 }
@@ -262,6 +262,24 @@ header {
   transition: all 0.5s;
   opacity: 1;
   width: 445px;
+}
+
+.slider__card {
+  width: 435px;
+  height: 545px;
+  position: relative;
+}
+
+.card__img_hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.card__img_hover:hover {
+  opacity: 1;
 }
 
 .slider__item_heading {
