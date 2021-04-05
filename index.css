@@ -66,6 +66,10 @@ body {
   .box__item {
     width: 100%;
   }
+
+  .box__data {
+    padding: 0 0 0 35px;
+  }
 }
 @media screen and (max-width: 775px) {
   .box__text {
@@ -88,5 +92,9 @@ body {
   .box__data {
     font-size: 50px;
     line-height: 150%;
+  }
+
+  .box__stars {
+    width: 200px;
   }
 }
