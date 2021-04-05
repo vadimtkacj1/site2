@@ -113,3 +113,26 @@ header {
 .slider__paragrah_right {
   margin: 0 25px 0 145px;
 }
+
+@media screen and (max-width: 1175px) {
+  .heading {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .number {
+    margin-left: 0;
+  }
+
+  .menu__item {
+    margin-right: 30px;
+  }
+
+  .slider {
+    display: none;
+  }
+
+  .description {
+    padding: 0 215px 0 0;
+  }
+}
