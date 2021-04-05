@@ -41,6 +41,10 @@ body {
 }
 
 @media screen and (max-width: 1175px) {
+  .promo__block {
+    padding: 0 35px;
+  }
+
   .promo__item_img:nth-child(4n) {
     display: none;
   }
@@ -48,18 +52,18 @@ body {
   .promo__item_img:nth-child(3n) {
     margin-right: 0;
   }
-
-  .heading-main {
-    margin: 90px 0 60px 0;
-  }
 }
-@media screen and (max-width: 775px) {
+@media screen and (max-width: 840px) {
   .promo__item_img:nth-child(3n) {
     display: none;
   }
 
   .promo__item_img:nth-child(2n) {
     margin-right: 0;
+  }
+
+  .heading-main {
+    margin: 90px 0 60px 0;
   }
 }
 
