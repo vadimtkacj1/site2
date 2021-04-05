@@ -27,8 +27,9 @@ body {
   align-items: center;
   justify-content: center;
   font-weight: bold;
-  background: url(img/box.png);
-  width: 1110px;
+  background: url(img/box.png) no-repeat center;
+  background-size: cover;
+  width: 1050px;
   height: 550px;
 }
 
@@ -51,4 +52,41 @@ body {
 
 .box__stars {
   margin-bottom: 25px;
+}
+
+@media screen and (max-width: 1175px) {
+  .box__text {
+    font-size: 34px;
+  }
+
+  .box__item_text {
+    margin-left: 60px;
+  }
+
+  .box__item {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 775px) {
+  .box__text {
+    font-size: 29px;
+  }
+
+  .box__item_text {
+    margin-left: 15px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .box__text {
+    font-size: 25px;
+  }
+
+  .box__data {
+    font-size: 72px;
+  }
+  .box__data {
+    font-size: 50px;
+    line-height: 150%;
+  }
 }
