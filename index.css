@@ -45,7 +45,7 @@ body {
 .content__item_left .content__item_paragrah {
   font-size: 14px;
   line-height: 150%;
-  width: 445px;
+  max-width: 445px;
 }
 
 .content__item_center .content__item_paragrah {
@@ -64,5 +64,62 @@ body {
 @media screen and (max-width: 1175px) {
   .content__item_right {
     display: none;
+  }
+
+  .main-heading {
+    margin: 90px 0 60px 0;
+  }
+
+  .content__item_center {
+    margin-right: 0;
+  }
+
+  .content {
+    padding: 0 35px;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  .content__item_right {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .main-heading {
+    margin: 80px 0 60px 0;
+  }
+
+  .content__item_center {
+    margin-left: 0;
+    margin-top: 47px;
+  }
+
+  .content__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .content__item:nth-child(3) {
+    display: none;
+  }
+
+  .content__box {
+    display: flex;
+  }
+
+  .content__box_item:nth-child(1) {
+    margin-right: 60px;
+  }
+
+  .content__item_left .content__item_paragrah {
+    text-align: center;
   }
 }
