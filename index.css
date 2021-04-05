@@ -96,4 +96,8 @@ header {
   .menu__item {
     margin-right: 30px;
   }
+
+  .description {
+    padding: 0 215px 0 0;
+  }
 }
