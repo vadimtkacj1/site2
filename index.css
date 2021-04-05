@@ -30,10 +30,15 @@ header {
   margin-right: 65px;
 }
 
+.menu__item:nth-child(5) {
+  margin-right: 0;
+}
+
 .number {
   letter-spacing: 0.05em;
   height: 25px;
-  margin: 50px 0 0 102px;
+  margin: 50px 0 0 105px;
+  width: 120px;
   border-bottom: 3px solid #d1a954;
 }
 
@@ -76,4 +81,19 @@ header {
   color: #fff;
   background: #d1a954;
   padding: 14px 42px;
+}
+
+@media screen and (max-width: 1175px) {
+  .heading {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .number {
+    margin-left: 0;
+  }
+
+  .menu__item {
+    margin-right: 30px;
+  }
 }
