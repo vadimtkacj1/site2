@@ -108,7 +108,7 @@ body {
   border: 2px solid #d1a954;
 }
 
-@media screen and (max-width: 1075px) {
+@media screen and (max-width: 1200px) {
   .contacts {
     padding: 0 35px;
   }
