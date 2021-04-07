@@ -33,3 +33,37 @@ body {
   font-size: 12px;
   color: #989898;
 }
+
+@media screen and (max-width: 1200px) {
+  .aside__line {
+    width: 705px;
+  }
+
+  .aside__item {
+    width: 705px;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  .aside__line {
+    width: 520px;
+  }
+
+  .aside__item {
+    width: 520px;
+  }
+}
+
+@media screen and (max-width: 615px) {
+  .aside__line {
+    width: 320px;
+  }
+
+  .aside__item {
+    width: 320px;
+  }
+
+  .aside__item_text {
+    font-size: 9px;
+  }
+}
