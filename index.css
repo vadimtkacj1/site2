@@ -55,7 +55,7 @@ input {
 
 .description {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .preview {
@@ -95,7 +95,7 @@ input {
 
 .slider {
   position: relative;
-  margin: 200px 0 0 80px;
+  margin: 200px 0 0 140px;
 }
 
 .slider__card_one {
@@ -129,6 +129,10 @@ input {
 }
 
 @media screen and (max-width: 1175px) {
+  .container {
+    max-width: 1000px;
+  }
+
   header {
     height: 900px;
   }
