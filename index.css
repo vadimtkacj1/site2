@@ -4,6 +4,11 @@ body {
   background: #333333;
 }
 
+section {
+  display: flex;
+  justify-content: center;
+}
+
 .container {
   font-family: "Open Sans Condensed", sans-serif;
   color: #fff;
@@ -55,6 +60,10 @@ body {
 }
 
 @media screen and (max-width: 1175px) {
+  .container {
+    max-width: 1000px;
+  }
+
   .box__text {
     font-size: 34px;
   }
@@ -63,15 +72,15 @@ body {
     margin-left: 60px;
   }
 
-  .box__item {
-    width: 100%;
-  }
-
   .box__data {
     padding: 0 0 0 35px;
   }
 }
-@media screen and (max-width: 775px) {
+@media screen and (max-width: 840px) {
+  section {
+    display: block;
+  }
+
   .box {
     margin-top: 90px;
   }
@@ -82,6 +91,10 @@ body {
 
   .box__item_text {
     margin-left: 15px;
+  }
+
+  .box__item {
+    width: 100%;
   }
 }
 
