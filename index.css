@@ -4,6 +4,11 @@ body {
   background: #333333;
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+}
+
 .container {
   font-family: "Open Sans Condensed", sans-serif;
   color: #fff;
@@ -34,7 +39,11 @@ body {
   color: #989898;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1175px) {
+  .container {
+    max-width: 1000px;
+  }
+
   .aside__line {
     width: 705px;
   }
@@ -45,6 +54,10 @@ body {
 }
 
 @media screen and (max-width: 775px) {
+  .container {
+    max-width: 700px;
+  }
+
   .aside__line {
     width: 520px;
   }
@@ -54,7 +67,11 @@ body {
   }
 }
 
-@media screen and (max-width: 615px) {
+@media screen and (max-width: 575px) {
+  .container {
+    max-width: 400px;
+  }
+
   .aside__line {
     width: 320px;
   }
