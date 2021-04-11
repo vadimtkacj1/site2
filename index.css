@@ -70,7 +70,7 @@ body {
   font-weight: bold;
 }
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 775px) {
   .container {
     max-width: 700px;
   }
