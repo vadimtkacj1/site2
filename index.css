@@ -70,13 +70,21 @@ body {
   font-weight: bold;
 }
 
-@media screen and (max-width: 775px) {
+@media screen and (max-width: 840px) {
+  .container {
+    max-width: 700px;
+  }
+
   .main-heading {
     margin: 90px 0 60px 0;
   }
 }
 
 @media screen and (max-width: 575px) {
+  .container {
+    max-width: 400px;
+  }
+
   .main-heading {
     margin: 80px 0 60px 0;
     text-align: center;
