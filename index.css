@@ -125,9 +125,10 @@ input {
   }
 }
 
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 775px) {
   .container {
-    max-width: 560px;
+    max-width: 700px;
+    padding: 0 35px;
   }
 
   .heading {
@@ -247,11 +248,16 @@ input {
     visibility: visible;
     left: 0;
   }
+
+  .preview {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 575px) {
   .container {
     max-width: 350px;
+    padding: 0;
   }
 
   header {
