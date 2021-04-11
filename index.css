@@ -75,8 +75,12 @@ section {
   .box__data {
     padding: 0 0 0 35px;
   }
+
+  .box__item {
+    width: 775px;
+  }
 }
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 775px) {
   section {
     display: block;
   }
