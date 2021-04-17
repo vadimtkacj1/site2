@@ -1,18 +1,8 @@
-<<<<<<< HEAD
-body {
-  width: 100%;
-  height: 100%;
-  background: #333333;
-}
-
-footer {
-=======
 header {
   background: url(img/Rectangle3.jpg) no-repeat center;
   background-size: cover;
   width: 100%;
   height: 1100px;
->>>>>>> master
   display: flex;
   justify-content: center;
 }
@@ -20,78 +10,6 @@ header {
 .container {
   font-family: "Open Sans Condensed", sans-serif;
   color: #fff;
-<<<<<<< HEAD
-}
-
-.aside {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  margin-top: 80px;
-}
-
-.aside__line {
-  width: 1125px;
-}
-
-.aside__item {
-  width: 1125px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.aside__item_text {
-  margin: 30px 0;
-  font-family: "Open Sans";
-  font-size: 12px;
-  color: #989898;
-}
-
-@media screen and (max-width: 1175px) {
-  .container {
-    max-width: 1000px;
-  }
-
-  .aside__line {
-    width: 705px;
-  }
-
-  .aside__item {
-    width: 705px;
-  }
-}
-
-@media screen and (max-width: 775px) {
-  .container {
-    max-width: 700px;
-  }
-
-  .aside__line {
-    width: 520px;
-  }
-
-  .aside__item {
-    width: 520px;
-  }
-}
-
-@media screen and (max-width: 575px) {
-  .container {
-    max-width: 400px;
-  }
-
-  .aside__line {
-    width: 320px;
-  }
-
-  .aside__item {
-    width: 320px;
-  }
-
-  .aside__item_text {
-    font-size: 9px;
-=======
 }
 
 .heading {
@@ -353,6 +271,5 @@ input {
   .preview {
     margin-top: 120px;
     text-align: center;
->>>>>>> master
   }
 }
