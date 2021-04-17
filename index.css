@@ -98,16 +98,12 @@ input {
   margin: 200px 0 0 140px;
 }
 
-.slider__card_one {
-  position: absolute;
-  z-index: 2;
+.number {
+  margin-left: 0;
 }
 
-.slider__card_two {
-  position: absolute;
-  z-index: 1;
-  left: 20px;
-  top: 20px;
+.menu__item {
+  margin-right: 25px;
 }
 
 .slider__arrow {
