@@ -12,6 +12,44 @@ header {
   color: #fff;
 }
 
+.socials {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background: rgba(51, 51, 51, 0.75);
+  width: 150px;
+  height: 100%;
+}
+
+.socials__paragrah {
+  white-space: nowrap;
+  position: absolute;
+  bottom: 490px;
+  transform: rotate(270deg);
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  color: #c4c4c4;
+}
+
+.socials__img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.socials__img_item {
+  margin-top: 25px;
+}
+
+.socials__img_line {
+  margin-bottom: 25px;
+}
+
 .heading {
   font-weight: bold;
   display: flex;
