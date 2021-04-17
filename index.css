@@ -86,7 +86,7 @@ input {
   text-decoration: none;
   color: #fff;
   background: #d1a954;
-  padding: 14px 42px;
+  padding: 15px 40px;
 }
 
 .menu__img {
@@ -188,8 +188,8 @@ input {
     display: flex;
     align-items: center;
     top: 20px;
-    width: 26px;
-    height: 26px;
+    width: 25px;
+    height: 25px;
     cursor: pointer;
     z-index: 10;
     position: absolute;
@@ -201,7 +201,7 @@ input {
     top: -8px;
     position: absolute;
     height: 3px;
-    width: 26px;
+    width: 25px;
     background-color: #fff;
     transition: all 0.5s;
   }
@@ -217,7 +217,7 @@ input {
   .menu__btn > span::after {
     content: "";
     top: 8px;
-    width: 14px;
+    width: 15px;
     position: absolute;
     height: 3px;
     background-color: #fff;
@@ -270,7 +270,7 @@ input {
 
   #menu__toggle:checked ~ .menu__btn > span {
     transform: rotate(45deg);
-    width: 22px;
+    width: 20px;
     position: fixed;
     margin-left: 210px;
     transition: all 1.5s;
@@ -278,12 +278,12 @@ input {
   #menu__toggle:checked ~ .menu__btn > span::before {
     top: 0;
     transform: rotate(0);
-    width: 22px;
+    width: 20px;
   }
   #menu__toggle:checked ~ .menu__btn > span::after {
     top: 0;
     transform: rotate(90deg);
-    width: 22px;
+    width: 20px;
   }
 
   #menu__toggle:checked ~ .menu,
