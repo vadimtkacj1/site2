@@ -98,12 +98,16 @@ input {
   margin: 200px 0 0 140px;
 }
 
-.number {
-  margin-left: 0;
+.slider__card_one {
+  position: absolute;
+  z-index: 2;
 }
 
-.menu__item {
-  margin-right: 25px;
+.slider__card_two {
+  position: absolute;
+  z-index: 1;
+  left: 20px;
+  top: 20px;
 }
 
 .slider__arrow {
@@ -114,12 +118,10 @@ input {
   font-size: 18px;
   text-transform: uppercase;
 }
-
 .slider__paragrah_left {
   color: #c4c4c4;
   margin-left: 25px;
 }
-
 .slider__paragrah_right {
   margin: 0 25px 0 145px;
 }
