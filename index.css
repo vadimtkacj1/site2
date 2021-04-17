@@ -55,7 +55,7 @@ input {
 
 .description {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .preview {
@@ -93,6 +93,37 @@ input {
   display: none;
 }
 
+.slider {
+  position: relative;
+  margin: 200px 0 0 140px;
+}
+
+.number {
+  margin-left: 0;
+}
+
+.menu__item {
+  margin-right: 25px;
+}
+
+.slider__arrow {
+  margin-top: 550px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.slider__paragrah_left {
+  color: #c4c4c4;
+  margin-left: 25px;
+}
+
+.slider__paragrah_right {
+  margin: 0 25px 0 145px;
+}
+
 @media screen and (max-width: 1175px) {
   .container {
     max-width: 1000px;
@@ -127,6 +158,10 @@ input {
     display: flex;
     justify-content: flex-start;
   }
+
+  .slider {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 775px) {
@@ -149,8 +184,8 @@ input {
     display: flex;
     align-items: center;
     top: 20px;
-    width: 26px;
-    height: 26px;
+    width: 25px;
+    height: 25px;
     cursor: pointer;
     z-index: 10;
     position: absolute;
@@ -222,7 +257,7 @@ input {
 
   .menu__item {
     display: block;
-    padding: 15px 0 15px 40px;
+    padding: 16px 0 16px 40px;
     font-size: 24px;
   }
   .menu__item:hover {
