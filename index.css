@@ -62,7 +62,7 @@ header {
   justify-content: center;
 }
 
-input {
+#menu__toggle {
   display: none;
 }
 
@@ -380,6 +380,7 @@ section {
   font-size: 48px;
   margin: 150px 0 100px 0;
   font-weight: 300;
+  align-items: center;
 }
 
 .content__item_center {
@@ -493,13 +494,6 @@ section {
   flex-direction: column;
   align-items: center;
   position: relative;
-}
-
-.main-heading {
-  letter-spacing: 0.1em;
-  font-size: 48px;
-  font-weight: 300;
-  margin: 150px 0 100px 0;
 }
 
 .slider__block {
@@ -716,5 +710,200 @@ section {
 
   .heading-main {
     margin: 80px 0 60px 0;
+  }
+}
+
+.contacts {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contacts__item {
+  display: flex;
+  justify-content: center;
+}
+
+.contacts__meta_item {
+  display: flex;
+  flex-direction: column;
+}
+
+.contacts__meta_text {
+  font-size: 16px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.contacts__info {
+  font-family: "Open Sans";
+  margin: 0 0 0 125px;
+  display: flex;
+  flex-direction: column;
+}
+
+.info__block {
+  display: flex;
+}
+
+.info__item {
+  margin-right: 30px;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 0 0 0 15px;
+  width: 180px;
+  height: 35px;
+  background: #444444;
+  color: #989898;
+  border: 1px solid #989898;
+}
+
+.info__item {
+  margin-bottom: 35px;
+}
+
+.message__textarea {
+  font-size: 12px;
+  width: 310px;
+  height: 100px;
+  padding: 10px 0 0 15px;
+  font-weight: 600;
+  resize: none;
+  background: #444444;
+  color: #989898;
+  border: 1px solid #989898;
+}
+
+.info__text {
+  margin-right: 205px;
+  width: 390px;
+}
+
+.info__text_paragrah {
+  font-size: 12px;
+  color: #989898;
+}
+
+.submit__input {
+  font-family: "Open Sans Condensed";
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  font-size: 18px;
+  color: #fff;
+  background: #d1a954;
+  text-transform: uppercase;
+  padding: 10px 45px;
+  border: 2px solid #d1a954;
+}
+
+@media screen and (max-width: 1175px) {
+  .contacts {
+    max-width: 1000px;
+  }
+
+  .contacts__info {
+    margin: 0;
+  }
+
+  .contacts__item {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .contacts__meta {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 80px;
+  }
+
+  .contacts__meta_text {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .message__textarea {
+    width: 270px;
+  }
+
+  .info__text {
+    margin-right: 165px;
+  }
+}
+
+@media screen and (max-width: 775px) {
+  .contacts {
+    max-width: 700px;
+  }
+
+  .contacts {
+    max-width: 700px;
+  }
+
+  .info__block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .info__block_footer {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .info__item {
+    width: 230px;
+  }
+
+  .message__textarea {
+    width: 510px;
+  }
+
+  .info__item:nth-child(2n) {
+    margin-right: 0;
+  }
+
+  .info__text {
+    width: 435px;
+    margin: 0;
+    text-align: center;
+  }
+
+  .submit {
+    margin: 40px 0 30px 0;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .contacts {
+    max-width: 400px;
+  }
+
+  .contacts {
+    max-width: 400px;
+  }
+
+  .info__item {
+    width: 125px;
+  }
+
+  .message__textarea {
+    width: 305px;
+  }
+
+  .info__text {
+    width: 310px;
+  }
+
+  .contacts__meta_text {
+    font-size: 12px;
+  }
+
+  .main-heading {
+    text-align: center;
   }
 }
