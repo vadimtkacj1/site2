@@ -4,19 +4,6 @@ body {
   background: #333333;
 }
 
-<<<<<<< HEAD
-section {
-  display: flex;
-  justify-content: center;
-}
-
-.container {
-  font-family: "Open Sans Condensed", sans-serif;
-  color: #fff;
-  padding: 0 35px;
-}
-
-=======
 header {
   background: url(img/Rectangle3.jpg) no-repeat center;
   background-size: cover;
@@ -421,14 +408,10 @@ section {
   margin-bottom: 15px;
 }
 
->>>>>>> master
 .color-heading {
   color: #d1a954;
 }
 
-<<<<<<< HEAD
-.promo {
-=======
 .content__item_img {
   margin-bottom: 15px;
 }
@@ -506,70 +489,21 @@ section {
 
 .slider__row {
   text-transform: uppercase;
->>>>>>> master
   display: flex;
-  align-items: center;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
-<<<<<<< HEAD
-.heading-main {
-  text-transform: uppercase;
-=======
 .main-heading {
->>>>>>> master
   letter-spacing: 0.1em;
   font-size: 48px;
   font-weight: 300;
   margin: 150px 0 100px 0;
-<<<<<<< HEAD
-  text-align: center;
-=======
->>>>>>> master
 }
 
-.promo__block {
+.slider__block {
   display: flex;
-<<<<<<< HEAD
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.promo__item {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-.promo__item_img {
-  padding: 20px;
-}
-
-@media screen and (max-width: 1175px) {
-  .container {
-    max-width: 1000px;
-  }
-}
-@media screen and (max-width: 775px) {
-  .container {
-    max-width: 700px;
-  }
-
-  .heading-main {
-    margin: 90px 0 60px 0;
-  }
-}
-
-@media screen and (max-width: 575px) {
-  .container {
-    max-width: 400px;
-  }
-
-  .heading-main {
-    margin: 80px 0 60px 0;
-=======
   flex-direction: row;
   margin-left: 150px;
 }
@@ -628,6 +562,159 @@ section {
   .main-heading {
     margin: 80px 0 60px 0;
     text-align: center;
->>>>>>> master
+  }
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  font-family: "Open Sans Condensed", sans-serif;
+  color: #fff;
+}
+
+.box__item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  background: url(img/box.png) no-repeat center;
+  background-size: cover;
+  width: 1050px;
+  height: 550px;
+}
+
+.box__data {
+  font-size: 72px;
+  line-height: 98px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.box__item_text {
+  margin-left: 105px;
+}
+
+.box__text {
+  font-family: "Open Sans";
+  font-size: 36px;
+  line-height: 150%;
+}
+
+.box__stars {
+  margin-bottom: 25px;
+}
+
+@media screen and (max-width: 1175px) {
+  .container {
+    max-width: 1000px;
+  }
+
+  .box__text {
+    font-size: 34px;
+  }
+
+  .box__item_text {
+    margin-left: 60px;
+  }
+
+  .box__data {
+    padding: 0 0 0 35px;
+  }
+
+  .box__item {
+    width: 775px;
+  }
+}
+@media screen and (max-width: 775px) {
+  section {
+    display: block;
+  }
+
+  .box {
+    margin-top: 90px;
+  }
+
+  .box__text {
+    font-size: 29px;
+  }
+
+  .box__item_text {
+    margin-left: 15px;
+  }
+
+  .box__item {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .box {
+    margin-top: 80px;
+  }
+
+  .box__text {
+    font-size: 25px;
+  }
+
+  .box__data {
+    font-size: 72px;
+  }
+  .box__data {
+    font-size: 50px;
+    line-height: 150%;
+  }
+
+  .box__stars {
+    width: 200px;
+  }
+}
+
+.promo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.promo__block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.promo__item {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.promo__item_img {
+  padding: 20px;
+}
+
+@media screen and (max-width: 1175px) {
+  .container {
+    max-width: 1000px;
+  }
+}
+@media screen and (max-width: 775px) {
+  .container {
+    max-width: 700px;
+  }
+  .heading-main {
+    margin: 90px 0 60px 0;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .container {
+    max-width: 400px;
+  }
+
+  .heading-main {
+    margin: 80px 0 60px 0;
   }
 }
