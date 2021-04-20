@@ -199,7 +199,7 @@ footer {
   font-size: 48px;
   margin: 150px 0 100px 0;
   font-weight: 300;
-  align-items: center;
+  text-align: center;
 }
 
 .content__item_center {
@@ -766,7 +766,6 @@ footer {
 @media screen and (max-width: 575px) {
   .container {
     max-width: 400px;
-    padding: 0;
   }
 
   header {
